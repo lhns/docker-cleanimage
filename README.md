@@ -1,5 +1,6 @@
 # docker-cleanimage
-#### A tool for cleaning up temp and cache directories to make docker images smaller
+### A tool for cleaning up temp and cache directories to make docker images smaller
+Installation procedures can produce a lot of logs and other cached files. This script attemts to clean up these files to make docker images a lot smaller.
 
 ## Commands
 - apt-get -y --purge autoremove
