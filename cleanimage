@@ -13,8 +13,9 @@ then
   yum clean all
 fi
 
-rm -rf \
+rm -Rf \
   /tmp/* \
+  /var/cache/apk/* \
   /var/tmp/* \
   /var/lib/apt/lists/* \
   /var/log/alternatives.log \

@@ -20,12 +20,20 @@ RUN apt-get install -y \
  && cleanimage
 ```
 
+## Supported Applications
+- apt
+- yum
+- apk
+- pip
+
 ## Commands
 - apt-get -y --purge autoremove
 - apt-get -y clean
+- yum clean all
 
 ## Directories
 - /tmp/*
+- /var/cache/apk/*
 - /var/tmp/*
 - /var/lib/apt/lists/*
 - /var/log/alternatives.log
@@ -37,4 +45,5 @@ RUN apt-get install -y \
 - /var/log/fsck/
 - /var/log/lastlog
 - /var/log/wtmp
-- /var/cache/*
+- ~/.cache/pip
+- Files in /var/cache/
