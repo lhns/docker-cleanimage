@@ -6,7 +6,7 @@ Installation procedures can produce a lot of logs and other cached files. This s
 
 ### Download and install
 ```Dockerfile
-ENV CLEANIMAGE_VERSION 1.0
+ENV CLEANIMAGE_VERSION 2.0
 ENV CLEANIMAGE_URL https://raw.githubusercontent.com/LolHens/docker-cleanimage/$CLEANIMAGE_VERSION/cleanimage
 
 ADD ["$CLEANIMAGE_URL", "/usr/local/bin/"]
