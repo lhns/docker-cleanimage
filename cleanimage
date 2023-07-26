@@ -27,7 +27,8 @@ rm -Rf \
   /var/log/fsck/ \
   /var/log/lastlog \
   /var/log/wtmp \
-  ~/.cache/pip
+  ~/.cache/pip \
+  ~/.cache/luarocks
 
 find /var/cache/ ! -type d -exec rm '{}' \;
 
